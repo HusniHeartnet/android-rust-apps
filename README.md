@@ -1,6 +1,6 @@
 # Android Rust Apps
 
-# Android Rust Apps
+
 Small, fast Android apps written in Rust. Each app is a single APK that installs on a normal
 phone, uses little memory and asks for as few permissions as it can.
 
