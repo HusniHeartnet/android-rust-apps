@@ -1,14 +1,15 @@
-# Heartnet Apps
+# Android Rust Apps
 
+# Android Rust Apps
 Small, fast Android apps written in Rust. Each app is a single APK that installs on a normal
 phone, uses little memory and asks for as few permissions as it can.
 
 | App | What it does |
 | --- | --- |
-| Gallery | Photos and videos, albums, a locked hidden album, trash, video gestures |
-| Files | A file manager with search, storage overview and a 30 day trash |
-| Notes | Plain text notes kept as files, with search, pinning and a 30 day trash |
-| Home | A light home screen: app grid, dock, search |
+| Android Rust Gallery | Photos and videos, albums, a locked hidden album, trash, video gestures |
+| Android Rust Files | A file manager with search, storage overview and a 30 day trash |
+| Android Rust Notes | Plain text notes kept as files, with search, pinning and a 30 day trash |
+| Android Rust Home | A light home screen: app grid, dock, search |
 
 Everything stays on the phone. See [PRIVACY.md](PRIVACY.md).
 

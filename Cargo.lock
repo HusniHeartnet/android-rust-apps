@@ -549,20 +549,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b97b65636e5b9ef369943878ac74335ba1c55c1cb6adbf1e2c293c624248d693"
 
 [[package]]
-name = "files"
-version = "0.1.0"
-dependencies = [
- "android-activity",
- "android_logger",
- "eframe",
- "image",
- "jni 0.21.1",
- "libc",
- "log",
- "ndk",
-]
-
-[[package]]
 name = "find-msvc-tools"
 version = "0.1.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -803,34 +789,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "heartnet-kit"
-version = "0.1.0"
-dependencies = [
- "android-activity",
- "egui",
- "jni 0.21.1",
- "libc",
- "log",
-]
-
-[[package]]
 name = "hermit-abi"
 version = "0.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e17592d60ebacc7d5e169f4663c5f84f9161cc90328abcfe8456f41e4dfcb284"
-
-[[package]]
-name = "home"
-version = "0.1.0"
-dependencies = [
- "android-activity",
- "android_logger",
- "eframe",
- "jni 0.21.1",
- "libc",
- "log",
- "ndk",
-]
 
 [[package]]
 name = "image"
@@ -1130,17 +1092,6 @@ name = "nohash-hasher"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2bf50223579dc7cdcfb3bfcacf7069ff68243f8c363f62ffa99cf000a6b9c451"
-
-[[package]]
-name = "notes"
-version = "0.1.0"
-dependencies = [
- "android-activity",
- "android_logger",
- "eframe",
- "heartnet-kit",
- "log",
-]
 
 [[package]]
 name = "num-traits"
