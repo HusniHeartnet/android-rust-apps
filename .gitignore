@@ -1,0 +1,9 @@
+target/
+*.keystore
+*.jks
+*.apk
+*.aab
+version-code.txt
+local.properties
+*.log
+.env

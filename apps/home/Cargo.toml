@@ -1,0 +1,25 @@
+[package]
+name = "home"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "home-desktop"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.37.0", default-features = false, features = ["glow", "default_fonts"] }
+log = "0.4.34"
+
+[target.'cfg(target_os = "android")'.dependencies]
+android-activity = { version = "0.6.1", features = ["native-activity"] }
+android_logger = "0.15.1"
+jni = "0.21"
+ndk = { version = "0.9", features = ["api-level-30", "nativewindow"] }
+eframe = { version = "0.37.0", default-features = false, features = ["glow", "default_fonts", "android-native-activity"] }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"

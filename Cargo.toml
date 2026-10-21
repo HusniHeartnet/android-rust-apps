@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members = ["apps/gallery", "apps/files", "apps/home", "apps/notes", "crates/heartnet-kit"]
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = true
